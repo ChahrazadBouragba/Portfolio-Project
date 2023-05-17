@@ -190,6 +190,7 @@ p {
     /* display: inline-block; */
     padding: 13px;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .service1 {
