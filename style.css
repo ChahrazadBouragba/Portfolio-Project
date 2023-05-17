@@ -171,11 +171,16 @@ p {
 
 }
 .aboutMe {
-    margin-left: 30rem;
-    margin-right: 4rem;
+    margin-left: 40rem;
+    margin-right: 5rem;
 
 }
 .section3 {
+    height: 98vh;
+
+    
+}
+.section4 {
     height: 98vh;
     
 }
