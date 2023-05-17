@@ -6,14 +6,14 @@ html {
 }
 body {
     background-color: black;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     color: white;
 }
 
 .intro {
     background-color: black;
     height: 98vh;
-    border: 1px solid red;
+    border-bottom: 1px solid white;
     position: relative;
 }
 
@@ -28,10 +28,14 @@ body {
 }
 a {
     text-decoration: none;
-    color: #737373;
-    font-family: 'Playfair Display', serif;
+    color: rgb(255, 255, 255, 0.8);
+    /* font-family: 'Gluten', cursive; */
+    /* font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif; */
+    /* font-family: 'Caveat', cursive; */
+    font-family: "Circular Bold",plexeina-bold,Helvetica,sans-serif;
     font-size: 15px;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 
 li {
@@ -49,18 +53,66 @@ a:hover {
     top: 0;
     left: 0;
     z-index: 1;
-
+    
     font-family: 'Playfair Display', serif;
     font-weight: 1000;
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-top: 15em;
 }
 h1 {
-    font-size: 5rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: 1000;
+    font-size: 4.7rem;
+    /* font-family: 'Gluten', cursive; */
+    /* font-family: 'Cormorant Garamond', serif; */
+
+    /* font-family: 'Rubik Mono One', sans-serif; */
+
+    /* font-family: 'Goblin One', cursive; */
+    font-family: "Circular Bold",plexeina-bold,Helvetica,sans-serif;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    /* line-height: 6rem; */
+    margin: 0;
+    
+}
+h3 {
+    /* font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif; */
+    font-family: "Circular Bold",plexeina-bold,Helvetica,sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
+.getInTouch{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.resume {
+    font-family: "Circular Bold",plexeina-bold,Helvetica,sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    display: inline-block;
+    padding: 13px;
+    margin: 0;
+}
+.media-div {
+    margin-top: 6px;
+}
+.socialMedia {
+    height: 5.5vh;
+    width: 5.5vh;
+}
 .profileImg {
     height: 90vh;
     margin-right: 3rem;
@@ -89,11 +141,43 @@ h1 {
 
 .section2 {
     height: 98vh;
-    border: 1px solid red;
+    border-bottom: 1px solid white;
+
+    font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+    font-style: normal;
+    background-color: rgb(33, 33, 33, 0.4);
+}
+
+.colorHeadline {
+    color: rgb(145, 255, 0);
+    font-family: "Circular Bold",plexeina-bold,Helvetica,sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+
+}
+p {
+    font-family: "Circular Bold",plexeina-bold,Helvetica,sans-serif;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+.Headline{
+    /* border: 1px solid blue; */
+    display: inline-block;
+    margin-left: 5rem;
+    font-size: 34px;
+
+}
+.aboutMe {
+    margin-left: 30rem;
+    margin-right: 4rem;
+
 }
 .section3 {
     height: 98vh;
-    border: 1px solid red;
+    
 }
 .slideImg {
     height: 37vh;
@@ -101,9 +185,16 @@ h1 {
     margin-right: 18px;
     border: 1px solid blue;
 }
+.slide-container {
+    display: flex; justify-content: center; height: 100vh; overflow-x: auto;
+}
 .slideHlder {
+    display: grid; 
+    place-items: center; 
+    height: 100vh;
+    
     text-align: center;
-    width: 95vh;
+    width: 180vh;
     height: 60vh;
     overflow: visible;
     display: flex;
@@ -116,7 +207,7 @@ h1 {
     /* padding: 0.8rem 0.8rem 0.4rem 0.8rem; */
     text-align: center;
 
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 
@@ -143,10 +234,6 @@ h1 {
 
 .section4 {
     height: 98vh;
-    border: 1px solid red;
+    background-color: rgb(33, 33, 33, 0.4);
 }
 
-.section5 {
-    height: 98vh;
-    border: 1px solid red;
-}
