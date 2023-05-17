@@ -10,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Bebas+Neue&family=Bree+Serif&family=Ceviche+One&family=Chango&family=Coda+Caption:wght@800&family=Denk+One&family=Fascinate&family=Foldit:wght@100;600&family=Gluten:wght@300&family=Goblin+One&family=Heebo:wght@100;300;400&family=Monofett&family=Plaster&family=Playfair+Display&family=Poller+One&family=Sigmar&family=Spicy+Rice&family=Trade+Winds&family=Vina+Sans&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/distant-galaxy" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/efco-godfrey" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/miyanih" rel="stylesheet">
 </head>
 <body>
     <section class="intro">
@@ -25,7 +31,7 @@
         <div class="introduction">
             <!-- <h3>Welcome to my portfolio!</h3> 
                 <h3>My name is</h3>  -->
-                <h1>CHAHRAZAD<br>
+                <h1>Chahrazad<br>
                     BOURAGBA</h1>
                     <h3><span>Frontend Developer</span></h3>
                     <!-- <p> I'm passionate about creating engaging and dynamic user experiences, and I'm excited to share my work with you.</p> -->
@@ -35,15 +41,19 @@
             <div class="media-div">
                 <img src="img/github.png" alt="linkedin" class="socialMedia">
                 <img src="img/linkedin.png" alt="linkedin" class="socialMedia">
+                <img src="img/twitter.png" alt="linkedin" class="socialMedia">
+                <img src="img/tiktok.png" alt="linkedin" class="socialMedia">
             </div>
         </div>
 
     </section>
 
     <section class="section2">
-        <h2 class="colorHeadline">About Me</h2>
+        <h2 class="colorHeadlineAbout">About Me</h2>
         <h3 class="Headline">Bridging Functionality and Aesthetics <br> to Create Engaging and Accessible <br> Web Applications</h3>
     <div class="aboutMe">
+        <!-- <img src="img/3d-modeling.png" alt="linkedin" class="socialMedia"> -->
+
         <p>Hello! My name is Chahrazad Bouragba. And I am a 23 years old self-taught developer, passionate about creating engaging and dynamic user experiences that combine functionality with aesthetic design.</p>
         
         <p>I strive to deliver high-quality work and approach each task with an open mind and a willingness to learn and grow, allowing me to adapt to each client's unique needs and preferences.</p>
@@ -55,27 +65,27 @@
     </section>
 
     <section class="section3">
-        <h2 class="colorHeadline">Services</h2>
+        <div class="title">Services</div>
         
         <div class="service1">
-            <h3 class="sevice-title">Website Development</h3>
+            <h3 class="sevice-title"><span>0.1</span> Website Development</h3>
             <p>I specialize in creating visually stunning and responsive websites that are tailored to the needs of each client. I work with HTML, CSS, JavaScript, and React to build websites from scratch or revamp existing websites to improve their functionality and user experience. I am committed to delivering high-quality work that exceeds my clients' expectations.</p>
         </div>
 
         <div class="service2">
-            <h3 class="sevice-title">(UI) Design</h3>
+            <h3 class="sevice-title"><span>0.2</span> (UI) Design</h3>
             <p>I offer UI design services to clients, designing interfaces for websites, web applications, and mobile apps. I am dedicated to creating interfaces that are not only visually appealing but also easy to navigate and use. I work closely with my clients to understand their needs and preferences, and I am committed to delivering designs that meet their expectations.</p>
         </div>
 
         <div class="service3">
-            <h3 class="sevice-title">Responsive Design</h3>
-            <p> I specialize in creating responsive designs that adapt seamlessly to different screen sizes and resolutions. I use CSS media queries and other techniques to create a consistent user experience across devices. I am committed to ensuring that my clients' websites are accessible and user-friendly on any device, and I work closely with them to understand their needs and goals.</p>
+            <h3 class="sevice-title"><span>0.3</span> Responsive Design</h3>
+            <p>I am skilled at responsive designs that adapt to different screen sizes and resolutions. I use CSS media queries and other techniques to create a consistent user experience across devices. I am committed to ensuring that my clients' websites are accessible and user-friendly on any device, and I work closely with them to understand their needs and goals.</p>
         </div>
     </section>
 
     <section class="section4">
-        <h4>My Projects</h4>
-        <h4>Take a look at some of the main projects I've worked on:</h4>
+        <h2 class="projectsTitle">My Projects</h2>
+        <!-- <h4>Take a look at some of the main projects I've worked on:</h4> -->
         
     <div class="slide-container">
 
@@ -104,18 +114,30 @@
     </div>
     </section>
 
-    <section class="section4">
+    <section class="section5">
         <h2 class="colorHeadline">Contact Me</h2>
         <h3>Let's work together to turn your ideas into a stunning and functional website or web application. Get in touch today to start the conversation and bring your vision to life.</h3>
+    
+        <div class="labels">
+            <div class="nameLabel">
+            <label for="name">Name</label> 
+                <input type="text" id="name" name="name" aria-placeholder="name" placeholder="your name">
+            </div>
 
-        <label for="name">what is your name?</label>
-            <input type="text" id="name" name="name">
-    
-        <label for="email">Where can I reach you?</label>
-            <input type="email" id="email" name="email">
-    
-        <label for="comments">What is your message?</label>
-            <textarea id="comments" name="comments"></textarea>
+            <div>
+            <label for="email" aria-placeholder="your email" placeholder>Email</label>
+                <input type="email" id="email" name="email" placeholder="your email">
+            </div>
+
+        </div>
+        <div class="message">
+            <div class="textarea">
+                <label for="message">Message</label>
+                <textarea id="comments" name="comments" placeholder="write your message"></textarea>
+
+            </div>
+        </div>
+            <p class="resume">Send Mesassage</p>
     </section>
 
 
