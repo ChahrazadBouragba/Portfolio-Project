@@ -98,22 +98,74 @@ h3 {
 
     font-family: 'Miyanih', sans-serif;
     font-weight: bold;
-    top: 73%;
-    left: 5%;
-    /* transform: translate(-50%, -50%); */
+    top: 81%;
+    left: 13.4%;
+    transform: translate(-50%, -50%);
 }
 .resume {
     font-family: 'Miyanih', sans-serif;
     font-size: 14px;
     letter-spacing: 2px;
-    border: 1px solid white;
     display: inline-block;
-    padding: 9px;
+    /* padding: 9px; */
     margin-top: 0;
+    position: relative;
+
+    z-index: 1;
+    padding: 16px;
+    border: 1px solid white;
+    /* transition: all .3s; */
+    cursor: pointer;
+  }
+
+  .resume:hover {
+    border: none;
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        border: 1.8px solid white;
+        transition: all .3s;
+        animation: clippath 4s infinite linear;
+    }
+    /* &::after {
+        animation: clippath 3s infinite -0.5s linear;
+    } */
 }
-.media-div {
-    /* margin-top: 6px; */
+
+@keyframes clippath {
+    0%,
+    100% {
+        clip-path: inset(0 0 98% 0);
+    }
+    
+    25% {
+        clip-path: inset(0 98% 0 0);
+    }
+    50% {
+        clip-path: inset(98% 0 0 0);
+    }
+    75% {
+        clip-path: inset(0 0 0 98%);
+    }
 }
+
+
+
+
+	
+
+
+
+
+
+
+
+
 .socialMedia {
     height: 4.5vh;
     width: 4.5vh;
