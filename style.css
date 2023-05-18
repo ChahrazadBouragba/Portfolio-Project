@@ -7,7 +7,7 @@ html {
 body {
     background-color: black;
     /* font-family: 'Open Sans', sans-serif; */
-    color: rgb(255, 255, 255, 0.8);
+    color: #f5f5f5;
 }
 
 .section1 {
@@ -110,6 +110,7 @@ h3 {
     /* padding: 9px; */
     margin-top: 0;
     position: relative;
+    color: #f5f5f5;
 
     z-index: 1;
     padding: 16px;
@@ -167,11 +168,17 @@ h3 {
 
 
 .socialMedia {
-    height: 4.5vh;
-    width: 4.5vh;
+    height: 4.8vh;
+    width: 4.8vh;
     margin-left: 2px;
     margin-right: 2px;
+    transition: transform 0.2s ease-in-out;
 }
+.socialMedia:hover {
+        transform: scale(1.17);
+        cursor: pointer;
+}
+
 .profileImg {
     height: 90vh;
     margin-right: 3rem;
@@ -210,6 +217,7 @@ h3 {
     border: 1px solid rgb(255, 255, 255, 0.8);
 }
 
+
 .cubs {
     position: absolute;
     height: 26vh;
@@ -243,7 +251,25 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
     /* letter-spacing: 2px; */
+    position: relative;
 }
+.service-description:hover {
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: -4px;
+        right: -4px;
+        bottom: -20px;
+        border: 1.8px solid white;
+        transition: all .3s;
+        animation: clippath 4s infinite linear;
+    }
+}
+
+
+
 .Headline{
     /* border: 1px solid blue; */
     display: inline-block;
@@ -255,9 +281,26 @@ p {
 .aboutMe {
     margin-left: 36rem;
     margin-right: 5rem;
-    overflow: auto;
-
+    /* overflow: auto; */
+    position: relative;
 }
+.aboutMe:hover {
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: -4px;
+        right: -4px;
+        bottom: -20px;
+        border: 1.8px solid white;
+        transition: all .3s;
+        animation: clippath 4s infinite linear;
+    }
+}
+
+
+
 .section3 {
     height: 98vh;
     display: grid;
@@ -302,6 +345,9 @@ p {
 .service3 {
     grid-column: 3;
 }
+
+
+
 .projectsTitle {
     color: rgb(145, 255, 0);
     font-family: 'Miyanih', sans-serif;sans-serif;
@@ -315,7 +361,14 @@ p {
     width: 37vh;
     margin-right: 18px;
     /* border: 0.7px solid rgb(255, 255, 255, 0.8); */
+    position: relative;
+    cursor: pointer;
 }
+.slideImg:hover {
+    border: 1.8px solid white;
+  }
+
+
 .slide-container {
     display: flex; 
     justify-content: center; 
@@ -330,7 +383,9 @@ p {
     /* border: 1px solid red; */
     margin: 0 auto;
     /* border: 1px solid rgb(255, 255, 255, 0.8); */
+
 }
+
 .beforeArow {
     position: absolute;
     height: 18vh;
@@ -413,7 +468,7 @@ p {
 }
 
 .section5 {
-    height: 91vh;
+    height: 95vh;
     background-color: black;
     text-align: center;
 }
