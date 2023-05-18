@@ -220,13 +220,19 @@ h3 {
     border: 1px solid rgb(255, 255, 255, 0.8);
 }
 
-
-.cubs {
+.upArrow {
     position: absolute;
-    height: 26vh;
-    width: 26vh;
+    height: 6vh;
+    width: 6vh;
+    margin-top: 30rem;
+    margin-left: 79rem;
+}
+.cubs1 {
+    position: absolute;
+    height: 15vh;
+    width: 15vh;
     margin-top: 18rem;
-    margin-left: 12rem;
+    margin-left: 8rem;
 }
 .cubs2 {
     position: absolute;
@@ -234,6 +240,82 @@ h3 {
     width: 19vh;
     margin-top: -2rem;
     margin-left: 63rem;
+}
+
+.cubs3 {
+    position: absolute;
+    height: 11vh;
+    width: 11vh;
+    margin-top: 14.7rem;
+    margin-left: 3rem;
+}
+.cubs4 {
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 3rem;
+    margin-left: -2rem;
+}
+.cubs5 {
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 3rem;
+    margin-left: -2rem;
+}
+
+.cubs6 {
+    position: absolute;
+    height: 15vh;
+    width: 14vh;
+    margin-top: 34rem;
+    margin-left: 74rem;
+}
+.cubs7 {
+    position: absolute;
+    height: 11vh;
+    width: 10vh;
+    margin-top: 33rem;
+    margin-left: 71rem;
+}
+.cubs8 {
+    position: absolute;
+    height: 11vh;
+    width: 10vh;
+    margin-top: 9rem;
+    margin-left: 26rem;
+}
+
+.cubs9 {
+    position: absolute;
+    height: 20vh;
+    width: 20vh;
+    margin-top: 2rem;
+    margin-left: 25rem;
+}
+
+.cubs10 {
+    position: absolute;
+    height: 11vh;
+    width: 10vh;
+    margin-top: 9rem;
+    margin-left: 30rem;
+}
+
+.cubs11 {
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 20rem;
+    margin-left: -40rem;
+}
+
+.cubs12 {
+    position: absolute;
+    height: 13vh;
+    width: 13vh;
+    margin-top: 14rem;
+    margin-left: 38rem;
 }
 
 .colorHeadlineAbout {
