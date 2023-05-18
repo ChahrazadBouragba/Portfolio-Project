@@ -7,7 +7,7 @@ html {
 body {
     background-color: black;
     /* font-family: 'Open Sans', sans-serif; */
-    color: rgb(255, 255, 255, 0.9);
+    color: rgb(255, 255, 255, 0.8);
 }
 
 .section1 {
@@ -28,14 +28,14 @@ body {
 }
 a {
     text-decoration: none;
-    color: rgb(255, 255, 255, 0.7);
+    color: rgb(255, 255, 255, 0.8);
     /* font-family: 'Gluten', cursive; */
     /* font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif; */
     /* font-family: 'Caveat', cursive; */
     font-family: 'Miyanih', sans-serif;
 
     /* font-family: 'Distant Galaxy', sans-serif; */
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 3px;
 }
@@ -46,7 +46,7 @@ li {
 }
 
 a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: white;
     cursor: pointer;
 }
@@ -209,8 +209,8 @@ p {
 .section3 {
     height: 98vh;
     display: grid;
-    grid-template-columns: repeat(3, 21rem);
-    grid-column-gap: 4rem;
+    grid-template-columns: repeat(3, 22rem);
+    grid-column-gap: 3.7rem;
     justify-content: center;
     text-align: left;
     position: relative;
@@ -256,13 +256,13 @@ p {
     font-size: 16px;
     letter-spacing: 2px;
     margin-top: 7.2rem;
-    margin-left: 4rem;
+    margin-left: 5rem;
 }
 .slideImg {
     height: 37vh;
-    width: 40vh;
+    width: 37vh;
     margin-right: 18px;
-    border: 0.7px solid rgb(255, 255, 255, 0.7);
+    /* border: 0.7px solid rgb(255, 255, 255, 0.8); */
 }
 .slide-container {
     display: flex; 
@@ -270,7 +270,30 @@ p {
     height: 53vh;
     overflow-x: auto;
     background-color: black;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    width: 170vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    /* border: 1px solid rgb(255, 255, 255, 0.8); */
+}
+.beforeArow {
+    position: absolute;
+    height: 18vh;
+    width: 14vh;
+    float: right;
+    margin-top: 7.5rem;
+    margin-left: 2rem;
+}
+.nextArow {
+    position: absolute;
+    height: 18vh;
+    width: 14vh;
+    float: right;
+    margin-top: 7.5rem;
+    margin-left: 75rem;
 }
 .slideHlder {
     /* border: 1px solid red; */
@@ -279,7 +302,7 @@ p {
     height: 100vh;
     
     text-align: center;
-    width: 170vh;
+    width: 156vh;
     height: 60vh;
     overflow: visible;
     display: flex;
@@ -292,13 +315,18 @@ p {
     /* padding: 0.8rem 0.8rem 0.4rem 0.8rem; */
     text-align: center;
     
-    /* margin-top: 2rem; */
+    margin-top: 1rem;
 }
 .projectDiv {
     text-align: start;
     font-family: 'Miyanih', sans-serif;sans-serif;
     font-size: 13px;
     letter-spacing: 2px;
+}
+.projectDescription {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255, 0.8);
+    margin-right: 18px;
 }
 .slideHlder::-webkit-scrollbar {
     height: 7px; /* height of the scrollbar */
@@ -333,7 +361,7 @@ p {
 }
 
 .section5 {
-    height: 90vh;
+    height: 91vh;
     background-color: black;
     text-align: center;
 }
@@ -342,8 +370,8 @@ p {
     font-family: 'Miyanih', sans-serif;sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
-    margin-top: 5rem;
-    margin-left: 6.8rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
     /* border: 1px solid burlywood; */
     /* display: inline-block; */
     text-align: start;
@@ -351,9 +379,9 @@ p {
     /* margin-left: 4rem; */
 }
 .contactHead {
-    margin-left: 7rem;
-    margin-right: 7rem;
-    text-align: left;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: justify;
 }
 label {
     display: block;
@@ -376,7 +404,7 @@ input {
     font-family: 'Miyanih', sans-serif;
     font-size: 12px;
     /* font-weight: 700; */
-    width: 17rem;
+    width: 16rem;
     line-height: 30px;
     padding: 0.5rem;
     outline: 0;;
@@ -394,8 +422,8 @@ textarea {
     margin-top: 6px;
     margin-bottom: 1.5rem;
     font-size: 12px;
-    width: 37rem;
-    height: 12rem;
+    width: 35rem;
+    height: 11rem;
     line-height: 30px;
     outline: 0;
     color: inherit;
