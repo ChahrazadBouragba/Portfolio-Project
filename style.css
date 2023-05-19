@@ -8,6 +8,7 @@ body {
     background-color: black;
     /* font-family: 'Open Sans', sans-serif; */
     color: #f5f5f5;
+    scroll-behavior: smooth;
     /* width: 100vh; */
     /* text-align: center;
     justify-content: center;
@@ -24,38 +25,42 @@ body {
 }
 
 .navBar {
-    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
     top: 0;
-    left: 0;
-    z-index: 1;
-
+    right: 0; /* Change left to right */
+    z-index: 999;
     list-style-type: none;
     margin-top: 2rem;
-}
-a {
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    margin-right: 4rem;
+  }
+  
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 2rem;
+  }
+  
+  a {
     text-decoration: none;
-    color: rgb(255, 255, 255, 0.8);
-    /* font-family: 'Gluten', cursive; */
-    /* font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif; */
-    /* font-family: 'Caveat', cursive; */
+    color: rgba(255, 255, 255, 0.8);
     font-family: 'Miyanih', sans-serif;
-
-    /* font-family: 'Distant Galaxy', sans-serif; */
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 3px;
-}
-
-li {
-    display: inline-block;
-    margin-right: 2rem;
-}
-
-a:hover {
-    /* text-decoration: underline; */
+  }
+  
+  a:hover {
     color: white;
     cursor: pointer;
-}
+    border-bottom: 1px solid white;
+  }
 .introduction {
     position: absolute;
     top: 0;
@@ -70,7 +75,7 @@ a:hover {
     /* border: 1px solid red; */
 }
 h1 {
-    font-size: 5rem;
+    font-size: 4.8rem;
     /* font-family: 'Gluten', cursive; */
     /* font-family: 'Cormorant Garamond', serif; */
 
@@ -180,7 +185,9 @@ h3 {
 }
 
 .profileImg {
-    height: 90vh;
+    margin-top: 4.7rem;
+    height: 87vh;
+    width: 76vb;
     margin-right: 3rem;
     float: right;
     /* border: 1px solid red; */
@@ -218,11 +225,21 @@ h3 {
 }
 
 .upArrow {
-    position: absolute;
-    height: 5vh;
-    width: 5vh;
+    /* display: none; */
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 32px;
+    height: 32px;
+    z-index: 999; /* Set the z-index to a high value */
+
+    /* height: 6vh;
+    width: 6vh; */
+    /* margin-bottom: 19rem; */
     /* margin-top: 31rem; */
-    margin-left: 80rem; 
+    /* margin-left: 80rem;  */
+    transition: 0.6s ease; 
     opacity: 0.7;
     /* transition: opacity 0.9s ease-in-out; */
 }
