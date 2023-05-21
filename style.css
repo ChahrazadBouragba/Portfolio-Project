@@ -6,21 +6,15 @@ html {
 }
 body {
     background-color: black;
-    /* font-family: 'Open Sans', sans-serif; */
     color: #f5f5f5;
     scroll-behavior: smooth;
-    /* width: 100vh; */
-    /* text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto; */
+    font-family: var(--bs-font-sans-serif);
 
 }
 
 .section1 {
     background-color: black;
     height: 98vh;
-    /* border: 1px solid white; */
     position: relative;
 }
 
@@ -32,9 +26,9 @@ body {
     right: 0; /* Change left to right */
     z-index: 999;
     list-style-type: none;
-    margin-top: 2rem;
+    margin-top: 3rem;
     /* background-color: rgba(0, 0, 0, 0.4); */
-    margin-right: 4rem;
+    margin-right: 5rem;
   }
   
   ul {
@@ -44,14 +38,15 @@ body {
   }
   
   li {
-    margin-right: 2rem;
+    margin-right: 3rem;
   }
   
   a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'Miyanih', sans-serif;
-    font-size: 12px;
+    /* font-family: 'Miyanih', sans-serif; */
+    font-family: var(--bs-font-sans-serif);
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 3px;
   }
@@ -62,20 +57,30 @@ body {
     border-bottom: 1px solid white;
   }
 .introduction {
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
     z-index: 1;
     
     /* font-family: 'Playfair Display', serif; */
-    font-family: 'Miyanih', sans-serif;
+    font-family: var(--bs-font-sans-serif);
     /* font-weight: 1000; */
-    margin-left: 4rem;
+    margin-left: 39rem;
     margin-top: 10rem;
     /* border: 1px solid red; */
 }
+.content {
+    display: table;
+    clear: both;
+    content: "";
+    /* position: absolute; */
+    margin: 0 auto;
+    border: 1px solid red;
+    border-bottom: 1px solid green;
+    left: 50%;
+    transform: translateX(-50%); /* translate left by half of its own width */
+}
 h1 {
-    font-size: 4.8rem;
     /* font-family: 'Gluten', cursive; */
     /* font-family: 'Cormorant Garamond', serif; */
 
@@ -84,40 +89,49 @@ h1 {
     /* font-family: 'Goblin One', cursive; */
     /* font-family: "Circular Bold",plexeina-bold,Helvetica,sans-serif; */
 
-    font-family: 'Miyanih', sans-serif;
-    font-weight: bolder;
-    letter-spacing: 14px;
+    /* font-family: 'Miyanih', sans-serif; */
+
+    font-family: var(--bs-font-sans-serif);
+    /* font-family: var(--bs-font-sans-serif); */
+    font-size: 5rem;
+    font-weight: 400;
+
+    /* font-family: Poppins,sans-serif; */
+    letter-spacing: 2px;
     /* line-height: 6rem; */
     margin: 0;
+    padding: 0;
+    font-weight: bold;
+    /* border: 1px  solid red; */
 }
-h3 {
-    /* font-family: Helvetica Neue,HelveticaNeue,Helvetica,Arial,sans-serif; */
-    font-family: 'Miyanih', sans-serif;
-    font-size: 25px;
-    letter-spacing: 2px;
+h2 {
+    font-family: var(--bs-font-sans-serif);
 }
 
 .getInTouch{
     position: absolute;
-    top: 0;
-    left: 0;
+
     z-index: 1;
-    align-items: center;
+    /* align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: center; */
     /* margin: 0 auto; */
     /* border: 1px solid red; */
 
-    font-family: 'Miyanih', sans-serif;
+    /* font-family: 'Miyanih', sans-serif; */
+    
+    font-family: var(--bs-font-sans-serif);
     font-weight: bold;
-    top: 81%;
-    left: 13.4%;
+    top: 68%;
+    left: 54%;
     transform: translate(-50%, -50%);
 }
 .resume {
-    font-family: 'Miyanih', sans-serif;
-    font-size: 14px;
-    letter-spacing: 2px;
+    /* font-family: 'Miyanih', sans-serif; */
+    
+    font-family: var(--bs-font-sans-serif);
+    font-size: 19px;
+    letter-spacing: 1px;
     display: inline-block;
     /* padding: 9px; */
     margin-top: 0;
@@ -185,26 +199,31 @@ h3 {
 }
 
 .profileImg {
-    margin-top: 4.7rem;
-    height: 87vh;
-    width: 76vb;
-    margin-right: 3rem;
-    float: right;
-    /* border: 1px solid red; */
+    margin-top: 6rem;
+    /* margin-left: 20rem; */
+    height: 60vh;
+    width: 45vh;
+    float: left;
     position: relative;
     z-index: 0;
+    border-radius: 40%;
+    opacity: 0.89;
 
 }
 
+
+
 .section1::after {
-    content: "";
+    display: table;
     clear: both;
+
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); 
+    background-color: rgba(0, 0, 0, 0.3); 
     pointer-events: none;
   }
   
@@ -217,9 +236,10 @@ h3 {
     height: 98vh;
     /* border-bottom: 1px solid white; */
 
-    font-family: 'Miyanih', sans-serif;
+    /* font-family: 'Miyanih', sans-serif; */
+    font-family: var(--bs-font-sans-serif);
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 23px;
     background-color: rgb(33, 33, 33, 0.4);
     border: 1px solid rgb(255, 255, 255, 0.8);
 }
@@ -341,7 +361,8 @@ h3 {
 
 .colorHeadlineAbout {
     color: rgb(145, 255, 0);
-    font-family: 'Miyanih', sans-serif;sans-serif;
+    /* font-family: 'Miyanih', sans-serif;sans-serif; */
+    font-family: var(--bs-font-sans-serif);
     font-size: 16px;
     letter-spacing: 2px;
     margin-top: 6rem;
@@ -350,13 +371,18 @@ h3 {
 }
 span {
     color: rgb(145, 255, 0);
+    font-family: var(--bs-font-sans-serif);
+    border: 1px  solid red;
+    font-size: 25px;
 }
 p {
-    font-family: 'Miyanih', sans-serif;
-    font-size: 15px;
+    /* font-family: 'Miyanih', sans-serif; */
+    /* font-family: 'Miyanih', sans-serif;sans-serif; */
+    font-family: var(--bs-font-sans-serif);
+    font-size: 19px;
     padding-left: 1rem;
     padding-right: 1rem;
-    /* letter-spacing: 2px; */
+    letter-spacing: 1px;
     position: relative;
 }
 .service-description:hover {
@@ -382,6 +408,7 @@ p {
     margin-left: 4rem;
     font-size: 34px;
     margin-top: 0;
+    border: 1px solid blue;
 
 }
 .aboutMe {
@@ -423,8 +450,9 @@ p {
 
 .title {
     color: rgb(145, 255, 0);
-    font-family: 'Miyanih', sans-serif;sans-serif;
-    font-size: 16px;
+    /* font-family: 'Miyanih', sans-serif;sans-serif; */
+    font-family: var(--bs-font-sans-serif);
+    font-size: 23px;
     letter-spacing: 2px;
     font-weight: 1000;
   margin-top: 9rem;
@@ -456,9 +484,11 @@ p {
 
 .projectsTitle {
     color: rgb(145, 255, 0);
-    font-family: 'Miyanih', sans-serif;sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
+    /* font-family: 'Miyanih', sans-serif;sans-serif; */ */
+
+    font-family: var(--bs-font-sans-serif);
+    font-size: 23px;
+    /* letter-spacing: 2px; */
     margin-top: 7.2rem;
     margin-left: 5rem;
 }
@@ -546,7 +576,8 @@ p {
 }
 .projectDiv {
     text-align: start;
-    font-family: 'Miyanih', sans-serif;sans-serif;
+    /* font-family: 'Miyanih', sans-serif;sans-serif; */
+    
     font-size: 13px;
     letter-spacing: 2px;
 }
@@ -594,8 +625,9 @@ p {
 }
 .contactTitle {
     color: rgb(145, 255, 0);
-    font-family: 'Miyanih', sans-serif;sans-serif;
-    font-size: 16px;
+    /* font-family: 'Miyanih', sans-serif;sans-serif; */
+    font-family: var(--bs-font-sans-serif);
+    font-size: 19px;
     letter-spacing: 2px;
     margin-top: 3rem;
     margin-left: 5rem;
@@ -609,11 +641,14 @@ p {
     margin-left: 8rem;
     margin-right: 8rem;
     text-align: justify;
+    font-size: 34px;
 }
 label {
     display: block;
-    font-family: 'Miyanih', sans-serif;
-    font-size: 16px;
+    /* font-family: 'Miyanih', sans-serif; */
+    font-family: var(--bs-font-sans-serif);
+    font-size: 20px;
+    font-weight: bolder;
     text-align: start;
     margin: 0;
     padding: 0;
@@ -628,7 +663,8 @@ label {
     display: inline-block;
 }
 input {
-    font-family: 'Miyanih', sans-serif;
+    /* font-family: 'Miyanih', sans-serif; */
+    font-family: var(--bs-font-sans-serif);
     font-size: 12px;
     /* font-weight: 700; */
     width: 16rem;
@@ -645,10 +681,11 @@ input {
     margin-bottom: 2rem;
 }
 textarea {
-    font-family: 'Miyanih', sans-serif;
+    /* font-family: 'Miyanih', sans-serif; */
+    font-family: var(--bs-font-sans-serif);
     margin-top: 6px;
     margin-bottom: 1.5rem;
-    font-size: 12px;
+    font-size: 18px;
     width: 35rem;
     height: 11rem;
     line-height: 30px;
