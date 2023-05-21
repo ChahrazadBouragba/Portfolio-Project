@@ -38,7 +38,7 @@ body {
     list-style-type: none;
     margin-top: 3rem;
     /* background-color: rgba(0, 0, 0, 0.4); */
-    margin-right: 5rem;
+    margin-right: 6rem;
     /* border-bottom: 1px solid white; */
   }
   
@@ -81,7 +81,7 @@ body {
     font-family: var(--bs-font-sans-serif);
     /* font-weight: 1000; */
     margin-left: 23rem;
-    margin-top: 8rem;
+    margin-top: 9rem;
     /* border: 1px solid red; */
 }
 
@@ -147,7 +147,7 @@ body {
 h1 {
 
     font-family: var(--bs-font-sans-serif);
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 400;
 
     /* font-family: Poppins,sans-serif; */
@@ -167,7 +167,7 @@ h1 {
     font-family: var(--bs-font-sans-serif);
     font-weight: bold;
     top: 94%;
-    left: 61%;
+    left: 64%;
     transform: translate(-50%, -50%);
     text-align: center;
     /* margin-top: 2rem; */
@@ -182,13 +182,15 @@ h1 {
     margin-top: 0;
     position: relative;
     color: #f5f5f5;
+    border-radius: 30%;
 
-    padding: 15px 17px;
+    padding: 18px 19px;
     border: 1px solid white;
     /* transition: all .3s; */
     cursor: pointer;
     text-align: center;
     z-index: 1;
+    display: inline-block;
   }
 
   .resume:hover {
@@ -202,9 +204,10 @@ h1 {
         left: -3px;
         right: -3px;
         bottom: -3px;
+        border-radius: 30%;
         border: 1.8px solid white;
         transition: all .3s;
-        animation: clippath 4s infinite linear;
+        animation: clippath 3s linear;
     }
     /* &::after {
         animation: clippath 3s infinite -0.5s linear;
@@ -262,7 +265,7 @@ a:hover {
     margin-top: 4.2rem;
     /* margin-left: 20rem; */
     height: 55vh;
-    width: 45vh;
+    width: 44vh;
     float: left;
     position: relative;
     z-index: 1;
@@ -337,6 +340,7 @@ a:hover {
     line-height: 1.4;
     background-color: rgb(33, 33, 33, 0.4);
     border: 1px solid rgb(255, 255, 255, 0.8);
+    border-radius: 25%;
 }
 
 .upArrow {
@@ -462,10 +466,10 @@ a:hover {
     font-size: 19px;
     font-weight: 700;
     /* letter-spacing: 1px; */
-    margin-top: 0;
     position: relative;
     color: #f5f5f5;
-    padding: 15px 17px;
+    border-radius: 30%;
+    padding: 18px 19px;
     border: 1px solid white;
     /* transition: all .3s; */
     cursor: pointer;
@@ -510,6 +514,7 @@ p {
         right: -4px;
         bottom: -20px;
         border: 1.8px solid white;
+        border-radius: 20%;
         transition: all .3s;
         animation: clippath 4s infinite linear;
     }
@@ -543,6 +548,7 @@ p {
         right: -4px;
         bottom: -20px;
         border: 1.8px solid white;
+        border-radius: 20%;
         transition: all .3s;
         animation: clippath 4s infinite linear;
     }
@@ -579,6 +585,7 @@ p {
     font-size: 25px;
     letter-spacing: 2px;
     border: 1px solid rgb(255, 255, 255, 0.8);
+    border-radius: 20%;
     /* display: inline-block; */
     padding: 13px;
     text-align: center;
@@ -604,39 +611,41 @@ p {
     font-family: var(--bs-font-sans-serif);
     font-size: 23px;
     letter-spacing: 1px;
-    margin-top: 4rem;
-    margin-left: 5rem;
+    margin-top: 3rem;
+    text-align: center;
 }
 .slideImg {
-    height: 50vh;
-    width: 40vh;
+    height: 47vh;
+    width: 33vh;
     /* margin-right: 18px; */
     /* border: 0.7px solid rgb(255, 255, 255, 0.8); */
-    position: relative;
     cursor: pointer;
 
-    transition: 0.6s ease; 
-    /* opacity: 0.7; */
-    /* transition: opacity 0.9s ease-in-out; */
-    margin-left: -1rem;
-    margin-right: -1rem;
-    transition: transform 0.3s ease-out;
-   
-    position: absolute;
-    margin-top: -9rem;
+    /* margin-left: -1rem;*/
+    margin-left: 3rem; 
 
-    /* z-index: 1; */
-}
-.slideImg:hover {
-    border: 1.8px solid white;
+    transition: transform 0.6s ease-out;
+    position: absolute;
+    margin-top: -8.7rem;
+    border-radius: 10%;
+    border: #91ff00;
+
+    transition: transform 0.6s ease-out;
     
-    transform: scale(1.05);
+    transform: translateX(60px) translateY(10px);
+
+    /* transform: translateX(60px) translateY(20px); */
+}
+
+.slideImg:hover {
+    /* border: 1.8px solid white; */
+    
     opacity: 1;
 
     transform: scale(1.2);
     z-index: 1;
     position: absolute;
-    
+
   }
 
 
@@ -646,6 +655,9 @@ p {
     height: 70vh;
     overflow-x: auto;
     background-color: black;
+    border-radius: 30%;
+   
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
     margin-top: 1rem;
     width: 170vh;
     display: flex;
@@ -653,6 +665,7 @@ p {
     align-items: center;
     /* border: 1px solid red; */
     margin: 0 auto;
+    padding: 2rem;
     /* border: 1px solid rgb(255, 255, 255, 0.8); */
 
 }
@@ -662,9 +675,9 @@ p {
     height: 18vh;
     width: 14vh;
     float: right;
-    margin-top: 7.5rem;
+    margin-top: 11.5rem;
     margin-left: 2rem;
-    opacity: 0.7;
+    opacity: 0.5;
     /* transition: opacity 0.9s ease-in-out; */
 }
 
@@ -677,9 +690,9 @@ p {
     height: 18vh;
     width: 14vh;
     float: right;
-    margin-top: 7.5rem;
+    margin-top: 11.5rem;
     margin-left: 75rem;
-    opacity: 0.7;
+    opacity: 0.5;
     /* transition: opacity 0.9s ease-in-out; */
 }
 
@@ -691,14 +704,14 @@ p {
     /* border: 1px solid red; */
     display: grid; 
     place-items: center; 
-    height: 100vh;
     
     text-align: center;
     width: 156vh;
-    height: 60vh;
+    height: 70vh;
     overflow: visible;
     display: flex;
     position: absolute;
+    border-radius: 30%;
   
     /* border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); */
@@ -706,8 +719,7 @@ p {
     /* white-space: nowrap; */
     /* padding: 0.8rem 0.8rem 0.4rem 0.8rem; */
     text-align: center;
-    
-    margin-top: 1rem;
+ 
 }
 .projectDiv {
     text-align: start;
@@ -716,14 +728,22 @@ p {
     font-size: 13px;
     letter-spacing: 2px;
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
+
     
 }
 .projectDescription {
     text-align: center;
     border: 1px solid rgb(255, 255, 255, 0.8);
+    border-radius: 20%;
     margin-right: 18px;
+    z-index: 1;
+    
+    transition: transform 0.6s ease-out;
+
 }
+
+
 .slideHlder::-webkit-scrollbar {
     height: 7px; /* height of the scrollbar */
     width: 7px; /* width of the scrollbar */
@@ -749,6 +769,7 @@ p {
     height: 98vh;
     background-color: rgb(33, 33, 33, 0.4);
     border: 1px solid rgb(255, 255, 255, 0.8);
+    border-radius: 25%;
 }
 .labels {
     margin-top: 3rem;
@@ -800,6 +821,7 @@ label {
 
 .textarea{
     display: inline-block;
+    margin-bottom: 0rem;
 }
 input {
     /* font-family: 'Miyanih', sans-serif; */
