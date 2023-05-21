@@ -14,8 +14,18 @@ body {
 
 .section1 {
     background-color: black;
-    height: 98vh;
+    height: 99.9vh;
     position: relative;
+}
+
+.logo {
+    height: 5.5vh;
+    width: 5.5vh;
+    position: absolute;
+    margin-top: 1.9rem;
+    margin-left: 3rem;
+    box-shadow: 1px 1px 1px 1px rgb(145, 255, 2, 0.6);
+    border-radius: 10%;
 }
 
 .navBar {
@@ -29,6 +39,7 @@ body {
     margin-top: 3rem;
     /* background-color: rgba(0, 0, 0, 0.4); */
     margin-right: 5rem;
+    /* border-bottom: 1px solid white; */
   }
   
   ul {
@@ -70,9 +81,57 @@ body {
     font-family: var(--bs-font-sans-serif);
     /* font-weight: 1000; */
     margin-left: 23rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
     /* border: 1px solid red; */
 }
+
+
+.hero2 {
+    position: absolute;
+    height: 19vh;
+    width: 19vh;
+    margin-top: 5rem;
+    margin-left: 65rem;
+    opacity: 0.3;
+}
+.hero33 {
+    position: absolute;
+    height: 14vh;
+    width: 14vh;
+    margin-top: 12rem;
+    margin-left: 70rem;
+    opacity: 0.4;
+}
+
+.hero3 {
+    position: absolute;
+    height: 13vh;
+    width: 13vh;
+    margin-top: 7rem;
+    margin-left: 74rem;
+    opacity: 0.5;
+}
+.hero5 {
+    position: absolute;
+    height: 10vh;
+    width: 10vh;
+    margin-top: 22rem;
+    opacity: 0.3;
+}
+
+.hero6 {
+    position: absolute;
+    height: 15vh;
+    width: 15vh;
+    margin-top: 27rem;
+    margin-left: 3rem;
+    opacity: 0.2;
+}
+
+
+
+
+
 .content {
     display: table;
     clear: both;
@@ -80,14 +139,15 @@ body {
     position: absolute;
     margin: 0 auto;
     /* border: 1px solid red; */
-    left: 50%;
+    left: 47%;
     transform: translateX(-50%); /* translate left by half of its own width */
-    margin-top: 5rem;
+    margin-top: 6rem;
+
 }
 h1 {
 
     font-family: var(--bs-font-sans-serif);
-    font-size: 3.8rem;
+    font-size: 4.5rem;
     font-weight: 400;
 
     /* font-family: Poppins,sans-serif; */
@@ -96,6 +156,7 @@ h1 {
     margin: 0;
     padding: 0;
     font-weight: bold;
+    /* margin-bottom: 2rem; */
     /* border: 1px  solid red; */
 }
 
@@ -105,30 +166,29 @@ h1 {
     z-index: 1;    
     font-family: var(--bs-font-sans-serif);
     font-weight: bold;
-    top: 77%;
-    left: 66%;
+    top: 94%;
+    left: 61%;
     transform: translate(-50%, -50%);
     text-align: center;
+    /* margin-top: 2rem; */
     /* border: 1px solid green; */
 }
 .resume {
     /* font-family: 'Miyanih', sans-serif; */
     font-family: var(--bs-font-sans-serif);
-    font-size: 20px;
-    font-weight: bolder;
-    letter-spacing: 1px;
-    /* display: inline-block; */
-    /* padding: 9px; */
+    font-size: 19px;
+    font-weight: 700;
+    /* letter-spacing: 1px; */
     margin-top: 0;
     position: relative;
     color: #f5f5f5;
 
-    z-index: 1;
-    padding: 11px;
-    border: 2px solid white;
+    padding: 15px 17px;
+    border: 1px solid white;
     /* transition: all .3s; */
     cursor: pointer;
     text-align: center;
+    z-index: 1;
   }
 
   .resume:hover {
@@ -180,6 +240,7 @@ a:hover {
     margin-right: 1rem;
     transition: transform 0.2s ease-in-out;
 }
+
 .socialMedia:hover {
         transform: scale(1.17);
         cursor: pointer;
@@ -187,26 +248,28 @@ a:hover {
 }
 
 .media-div {
-    /* position: absolute; */
+    position: absolute;
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
-    margin-top: 9rem;
+    align-items: center;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .profileImg {
-    margin-top: 6rem;
+    margin-top: 4.2rem;
     /* margin-left: 20rem; */
-    height: 49vh;
-    width: 40vh;
+    height: 55vh;
+    width: 45vh;
     float: left;
     position: relative;
     z-index: 1;
     border-bottom-left-radius: 49%;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid rgb(145, 255, 2);
     /* border-bottom-right-radius: 44%; */
     /* opacity: 0.8; */
-
 }
 .profileImg{
     /* color: rgb(255, 255, 255, 0.8);
@@ -256,7 +319,7 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.2); 
     pointer-events: none;
   }
   
@@ -272,7 +335,6 @@ a:hover {
     /* font-family: 'Miyanih', sans-serif; */
     font-family: var(--bs-font-sans-serif);
     line-height: 1.4;
-    font-size: 23px;
     background-color: rgb(33, 33, 33, 0.4);
     border: 1px solid rgb(255, 255, 255, 0.8);
 }
@@ -307,13 +369,7 @@ a:hover {
     width: 15vh;
     margin-top: 18rem;
     margin-left: 8rem;
-}
-.cubs2 {
-    position: absolute;
-    height: 19vh;
-    width: 19vh;
-    margin-top: -2rem;
-    margin-left: 63rem;
+    opacity: 0.5;
 }
 
 .cubs3 {
@@ -322,13 +378,15 @@ a:hover {
     width: 11vh;
     margin-top: 14.7rem;
     margin-left: 3rem;
+    opacity: 0.5;
 }
 .cubs4 {
     position: absolute;
     height: 10vh;
     width: 10vh;
     margin-top: 3rem;
-    margin-left: -2rem;
+    margin-left: -1rem;
+    opacity: 0.5;
 }
 .cubs5 {
     position: absolute;
@@ -336,6 +394,7 @@ a:hover {
     width: 10vh;
     margin-top: 3rem;
     margin-left: -2rem;
+    opacity: 0.5;
 }
 
 .cubs6 {
@@ -344,6 +403,7 @@ a:hover {
     width: 14vh;
     margin-top: 34rem;
     margin-left: 74rem;
+    opacity: 0.5;
 }
 .cubs7 {
     position: absolute;
@@ -351,6 +411,7 @@ a:hover {
     width: 10vh;
     margin-top: 33rem;
     margin-left: 71rem;
+    opacity: 0.5;
 }
 .cubs8 {
     position: absolute;
@@ -358,6 +419,7 @@ a:hover {
     width: 10vh;
     margin-top: 9rem;
     margin-left: 26rem;
+    opacity: 0.5;
 }
 
 .cubs9 {
@@ -366,6 +428,7 @@ a:hover {
     width: 20vh;
     margin-top: 2rem;
     margin-left: 25rem;
+    opacity: 0.5;
 }
 
 .cubs10 {
@@ -374,6 +437,7 @@ a:hover {
     width: 10vh;
     margin-top: 9rem;
     margin-left: 30rem;
+    opacity: 0.5;
 }
 
 .cubs11 {
@@ -382,6 +446,7 @@ a:hover {
     width: 10vh;
     margin-top: 20rem;
     margin-left: -40rem;
+    opacity: 0.5;
 }
 
 .cubs12 {
@@ -390,14 +455,30 @@ a:hover {
     width: 13vh;
     margin-top: 14rem;
     margin-left: 36.5rem;
+    opacity: 0.4;
 }
-
+.messageButton {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 19px;
+    font-weight: 700;
+    /* letter-spacing: 1px; */
+    margin-top: 0;
+    position: relative;
+    color: #f5f5f5;
+    padding: 15px 17px;
+    border: 1px solid white;
+    /* transition: all .3s; */
+    cursor: pointer;
+    text-align: center;
+    z-index: 1;
+    display: inline;
+}
 .colorHeadlineAbout {
     color: rgb(145, 255, 0);
     /* font-family: 'Miyanih', sans-serif;sans-serif; */
     font-family: var(--bs-font-sans-serif);
-    font-size: 16px;
-    letter-spacing: 2px;
+    font-size: 23px;
+    letter-spacing: 1px;
     margin-top: 6rem;
     margin-left: 4rem;
 
@@ -442,7 +523,7 @@ p {
     margin-left: 4rem;
     font-size: 34px;
     margin-top: 0;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 
 }
 .aboutMe {
@@ -450,6 +531,7 @@ p {
     margin-right: 5rem;
     /* overflow: auto; */
     position: relative;
+    margin-top: -1rem;
 }
 .aboutMe:hover {
     &::before,
@@ -486,16 +568,15 @@ p {
     color: rgb(145, 255, 0);
     /* font-family: 'Miyanih', sans-serif;sans-serif; */
     font-family: var(--bs-font-sans-serif);
-    font-size: 23px;
+    font-size: 17px;
     letter-spacing: 2px;
-    font-weight: 1000;
   margin-top: 9rem;
   margin-bottom: -7rem;
 }
 
 
 .sevice-title {
-    font-size: 18.5px;
+    font-size: 25px;
     letter-spacing: 2px;
     border: 1px solid rgb(255, 255, 255, 0.8);
     /* display: inline-block; */
@@ -522,30 +603,50 @@ p {
 
     font-family: var(--bs-font-sans-serif);
     font-size: 23px;
-    /* letter-spacing: 2px; */
-    margin-top: 7.2rem;
+    letter-spacing: 1px;
+    margin-top: 4rem;
     margin-left: 5rem;
 }
 .slideImg {
-    height: 37vh;
-    width: 37vh;
-    margin-right: 18px;
+    height: 50vh;
+    width: 40vh;
+    /* margin-right: 18px; */
     /* border: 0.7px solid rgb(255, 255, 255, 0.8); */
     position: relative;
     cursor: pointer;
+
+    transition: 0.6s ease; 
+    /* opacity: 0.7; */
+    /* transition: opacity 0.9s ease-in-out; */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    transition: transform 0.3s ease-out;
+   
+    position: absolute;
+    margin-top: -9rem;
+
+    /* z-index: 1; */
 }
 .slideImg:hover {
     border: 1.8px solid white;
+    
+    transform: scale(1.05);
+    opacity: 1;
+
+    transform: scale(1.2);
+    z-index: 1;
+    position: absolute;
+    
   }
 
 
 .slide-container {
     display: flex; 
     justify-content: center; 
-    height: 53vh;
+    height: 70vh;
     overflow-x: auto;
     background-color: black;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     width: 170vh;
     display: flex;
     justify-content: center;
@@ -614,6 +715,9 @@ p {
     
     font-size: 13px;
     letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    
 }
 .projectDescription {
     text-align: center;
@@ -661,8 +765,8 @@ p {
     color: rgb(145, 255, 0);
     /* font-family: 'Miyanih', sans-serif;sans-serif; */
     font-family: var(--bs-font-sans-serif);
-    font-size: 19px;
-    letter-spacing: 2px;
+    font-size: 23px;
+    /* letter-spacing: 2px; */
     margin-top: 3rem;
     margin-left: 5rem;
     /* border: 1px solid burlywood; */
@@ -675,6 +779,7 @@ p {
     margin-left: 8rem;
     margin-right: 8rem;
     text-align: justify;
+    letter-spacing: 1px;
     font-size: 34px;
 }
 label {
