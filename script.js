@@ -43,6 +43,7 @@ nextButton.addEventListener('click', () => {
 //   section.appendChild(clonedArrow);
 // });
 
+
 window.onscroll = function () {
   toggleScrollUpButton();
 };
@@ -60,7 +61,6 @@ function scrollToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
 
 
 
