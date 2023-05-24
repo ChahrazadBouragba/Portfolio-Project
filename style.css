@@ -873,7 +873,7 @@ label {
 input {
     /* font-family: 'Miyanih', sans-serif; */
     font-family: var(--bs-font-sans-serif);
-    font-size: 12px;
+    font-size: 18px;
     /* font-weight: 700; */
     width: 15rem;
     line-height: 30px;
