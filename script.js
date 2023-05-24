@@ -25,25 +25,6 @@ nextButton.addEventListener('click', () => {
   });
 });
 
-
-
-//! UP ARROW
-// Create the arrow element
-// const arrow = document.createElement('a');
-// arrow.href = '#section1';
-// arrow.className = 'upArrow';
-// arrow.innerHTML = '<img class="upArrow" src="/img/up-arrow.png">';
-
-// // Get all the sections on the page
-// const sections = document.querySelectorAll('section');
-
-// // Append the arrow element to each section
-// sections.forEach(section => {
-//   const clonedArrow = arrow.cloneNode(true);
-//   section.appendChild(clonedArrow);
-// });
-
-
 window.onscroll = function () {
   toggleScrollUpButton();
 };
