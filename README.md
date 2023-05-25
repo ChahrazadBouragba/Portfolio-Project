@@ -35,4 +35,4 @@ git clone https://github.com/ChahrazadBouragba/Portfolio-Project.git
 
 
 
-![Portfolio Project Banner](img/banner.png)
+![Portfolio Project Banner](/img/img/banner.png)
