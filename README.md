@@ -3,14 +3,6 @@
 
 > This is my personal portfolio website, showcasing my work and skills as a developer.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -35,4 +27,4 @@ git clone https://github.com/ChahrazadBouragba/Portfolio-Project.git
 
 
 
-![Portfolio Project Banner](/img/img/banner.png)
+![Portfolio Project Banner](/img/banner.png)
