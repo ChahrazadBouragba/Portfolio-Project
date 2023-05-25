@@ -1,5 +1,6 @@
 # Portfolio Project
 
+![Portfolio Project Banner](./img/banner.png)
 
 > This is my personal portfolio website, showcasing my work and skills as a developer.
 
@@ -27,4 +28,3 @@ git clone https://github.com/ChahrazadBouragba/Portfolio-Project.git
 
 
 
-![Portfolio Project Banner](./img/banner.png)
