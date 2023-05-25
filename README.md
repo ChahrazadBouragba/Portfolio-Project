@@ -25,9 +25,6 @@ To get started with this project, you can clone the repository to your local mac
 ```bash
 git clone https://github.com/ChahrazadBouragba/Portfolio-Project.git
 ```
-
-
-
-
+<br><br><br>
 ![Portfolio Project Banner](./img/banner.png)
 
