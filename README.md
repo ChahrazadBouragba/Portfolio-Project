@@ -1,6 +1,5 @@
 # Portfolio Project
 
-![Portfolio Project Banner](./img/banner.png)
 
 > This is my personal portfolio website, showcasing my work and skills as a developer.
 
@@ -25,6 +24,7 @@ To get started with this project, you can clone the repository to your local mac
 
 ```bash
 git clone https://github.com/ChahrazadBouragba/Portfolio-Project.git
+```
 
-
+![Portfolio Project Banner](./img/banner.png)
 
