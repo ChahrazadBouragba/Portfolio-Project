@@ -909,9 +909,9 @@ footer {
     font-family: var(--bs-font-sans-serif);
     font-size: 15px;
     color: rgba(255, 255, 255, 0.5);
-    padding-right: 5rem;
-    padding-bottom: 1rem;
-    margin-top: 3rem;
+    padding-right: 6rem;
+    padding-bottom: 1.6rem;
+    margin-top: 2.3rem;
     text-align: end;
 
 }
