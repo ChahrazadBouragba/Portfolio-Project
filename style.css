@@ -167,8 +167,8 @@ h1 {
     z-index: 1;    
     font-family: var(--bs-font-sans-serif);
     font-weight: bold;
-    top: 94%;
-    left: 64%;
+    top: 92%;
+    left: 74%;
     transform: translate(-50%, -50%);
     text-align: center;
     /* margin-top: 2rem; */
@@ -265,15 +265,15 @@ a:hover {
 .profileImg {
     margin-top: 4.2rem;
     /* margin-left: 20rem; */
-    height: 55vh;
-    width: 44vh;
+    height: 54vh;
+    width: 46vh;
     float: left;
     position: relative;
     z-index: 1;
     border-bottom-left-radius: 49%;
     border-bottom: 2px solid rgb(145, 255, 2);
     /* border-bottom-right-radius: 44%; */
-    opacity: 0.85;
+    opacity: 1;
 }
 .profileImg{
     /* color: rgb(255, 255, 255, 0.8);
@@ -543,11 +543,11 @@ p {
 
 }
 .aboutMe {
-    margin-left: 36rem;
+    margin: -1.6rem 5rem 0 36rem;
     margin-right: 5rem;
     /* overflow: auto; */
     position: relative;
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
 }
 .aboutMe p {
     padding-left: 2rem;
@@ -652,7 +652,6 @@ p {
 
 .slide-container {
     display: flex; 
-    justify-content: center; 
     height: 65vh;
     overflow-x: auto;
     border-radius: 35%;
