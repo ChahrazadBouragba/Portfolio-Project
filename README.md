@@ -20,17 +20,9 @@ The template is built using HTML, CSS, and JavaScript, providing a solid foundat
 
 To start using this portfolio template, follow the steps below:
 
-1. Clone the repository to your local machine using the following command:
+1. Clone the repository to your local machine.
 
-\`\`\`bash
-git clone https://github.com/your-username/portfolio-template.git
-\`\`\`
-
-2. Navigate to the project directory:
-
-\`\`\`bash
-cd portfolio-template
-\`\`\`
+2. Navigate to the project directory.
 
 3. Open the \`index.html\` file in your preferred web browser to view the template.
 
