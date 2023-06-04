@@ -43,7 +43,7 @@ Feel free to unleash your creativity and make this portfolio template truly your
 
 ## Credits
 
-This portfolio template was designed and developed by Chahrazad Bouragba. You can find the original repository [here](https://github.com/your-username/portfolio-template).
+This portfolio template was designed and developed by Chahrazad Bouragba. You can find the original repository [here](https://github.com/ChahrazadBouragba/Portfolio-Template.git).
 
 ## License
 
