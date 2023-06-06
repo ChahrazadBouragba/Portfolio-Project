@@ -12,6 +12,10 @@ body {
 
 }
 
+.md {
+    border-radius: 10%;
+}
+
 .section1 {
     background-color: black;
     height: 100vh;
