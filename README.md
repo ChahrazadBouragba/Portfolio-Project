@@ -4,7 +4,7 @@
 
 ## Preview
 
-![Portfolio Template Preview](./img/preview.png)
+<img src="./img/preview.png" alt="[Portfolio Template Preview" style="border-radious: 9px;" />
 
 ## Overview
 
