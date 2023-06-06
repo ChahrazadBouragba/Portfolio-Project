@@ -4,7 +4,15 @@
 
 ## Preview
 
-<img src="./img/preview.png" alt="Portfolio Template Preview" style="border-radius: 9px;" />
+<p align="center">
+  <img src="./img/preview.png" alt="[Portfolio Template Preview]" width="600">
+</p>
+
+<style>
+  img {
+    border-radius: 9px;
+  }
+</style>
 
 ## Overview
 
