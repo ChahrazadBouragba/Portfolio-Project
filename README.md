@@ -5,14 +5,11 @@
 ## Preview
 
 <p align="center">
-  <img src="./img/preview.png" alt="[Portfolio Template Preview]" width="600">
+  <img class="md" src="./img/preview.png" alt="[Portfolio Template Preview]" width="600">
 </p>
 
-<style>
-  img {
-    border-radius: 2rem;
-  }
-</style>
+<link rel="stylesheet" type="text/css" href="./styles.css">
+```
 
 ## Overview
 
