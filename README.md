@@ -4,7 +4,7 @@
 
 ## Preview
 
-<img src="./img/preview.png" alt="[Portfolio Template Preview" style="border-radious: 9px;" />
+<img src="./img/preview.png" alt="[Portfolio Template Preview" style="border-radius: 9px;" />
 
 ## Overview
 
