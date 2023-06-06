@@ -4,7 +4,7 @@
 
 ## Preview
 
-  <img class="md" src="./img/preview.png" alt="[Portfolio Template Preview]" width="600">
+  <img class="md" src="./img/preview.png" alt="[Portfolio Template Preview]">
 
 <link rel="stylesheet" type="text/css" href="./styles.css">
 
