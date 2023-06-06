@@ -10,7 +10,7 @@
 
 <style>
   img {
-    border-radius: 9px;
+    border-radius: 2rem;
   }
 </style>
 
