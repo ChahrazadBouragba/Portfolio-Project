@@ -4,12 +4,9 @@
 
 ## Preview
 
-<p align="center">
   <img class="md" src="./img/preview.png" alt="[Portfolio Template Preview]" width="600">
-</p>
 
 <link rel="stylesheet" type="text/css" href="./styles.css">
-```
 
 ## Overview
 
