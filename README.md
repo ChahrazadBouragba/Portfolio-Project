@@ -4,6 +4,7 @@
 
 ## Preview
 
+<br>
 <p align="center">
   <img src="./img/preview.png" alt="[Portfolio Template Preview]" width="800">
 </p>
