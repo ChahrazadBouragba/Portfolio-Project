@@ -2,6 +2,13 @@
 
 > A stylish and customizable template for showcasing your portfolio and skills as a developer.
 
+## Preview
+
+<br>
+<p align="center">
+  <img src="./img/preview.png" alt="[Portfolio Template Preview]" width="800">
+</p>
+
 ## Overview
 
 Welcome to the Portfolio Template! This modern and responsive website is designed to help you present your work and skills as a developer in an impressive way. With its sleek design, smooth animations, and user-friendly navigation, it is sure to leave a lasting impression on visitors.
@@ -36,10 +43,6 @@ This portfolio template is highly customizable to match your personal brand and 
 - Enhance the functionality by adding your own JavaScript code to create interactive elements or implement additional features.
 
 Feel free to unleash your creativity and make this portfolio template truly your own!
-
-## Preview
-
-![Portfolio Template Preview](./img/preview.png)
 
 ## Credits
 
